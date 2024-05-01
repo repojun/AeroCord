@@ -9,11 +9,8 @@
   --header-secondary: rgb(179, 232, 249) !important;
   --primary-330: rgb(235, 235, 235) !important;
   --primary-500: #5665eb;
-  /* --text-normal: black !important; */
 
 }
-
-
 
 .embedFull__14919 {
   background-color: transparent !important;
@@ -28,7 +25,6 @@
 
 
 /* SETTINGS PAGE */
-
 
 .sidebarRegion__36437 {
   background-image: url('https://arjun.needs-to-s.top/6s1hqaA.png') !important;
@@ -86,10 +82,6 @@
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
 
-.scroller__89969 {
-  background-color: transparent !important;
-}
-
 .grid__35551 {
   border: 1.5px solid rgba(148, 246, 255, 0.3);
   background: rgba(106, 151, 255, 0.226);
@@ -111,16 +103,6 @@
   box-shadow: inset 0px 0px 10px rgba(148, 246, 255, 0.2);
 }
 
-
-
-.shop_b31ed2 {
-  background-color: transparent !important;
-}
-
-.pageWrapper__18871 {
-  background-color: transparent !important;
-}
-
 .scrollableContainer_ff917f:hover,
 .scrollableContainer_ff917f:focus,
 .scrollableContainer_ff917f:active,
@@ -135,7 +117,10 @@
 .channelTextArea_c2094b,
 .title_d4ba1a,
 .privateChannels__9b518,
-.subtitleContainer_f50402 {
+.subtitleContainer_f50402,
+.scroller__89969,
+.shop_b31ed2,
+.pageWrapper__18871 {
   background-color: transparent !important;
 
 }
