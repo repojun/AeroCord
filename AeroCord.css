@@ -1,3 +1,4 @@
+
 /* End https://www.cursors-4u.com */
 
 :root {
@@ -24,7 +25,12 @@
   background-image: url('https://arjun.needs-to-s.top/5RVeMbj.png') !important;
   background-image: url('https://arjun.needs-to-s.top/6s1hqaA.png') !important;
 }
-
+.root__46d4f {
+  background: rgba(106, 151, 255, 0.526);
+  box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+  backdrop-filter: blur(20px);
+}
 
 /* SETTINGS PAGE */
 
