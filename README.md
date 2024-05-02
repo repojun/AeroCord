@@ -1,6 +1,14 @@
 # AeroCord Theme
 A very clean looking, messily coded Discord Theme. Currently in beta, feel free to test!
 
+## 🔧 Simple Installation:
+- Download and Install BetterDiscord: [BetterDiscord](https://betterdiscord.app)
+- Download AeroCord.css: [Latest AeroCord File](https://github.com/repojun/AeroCord/blob/main/AeroCord.css)
+- Navigate to Discord Settings -> BetterDiscord -> Custom CSS -> Paste AeroCord.css into the text area
+![Installation Image](https://arjun.needs-to-s.top/7YvCjif.png)
+- Enjoy!
+
+## Screenshots
 ![Image 1](https://arjun.needs-to-s.top/2t2WPLP.gif)
 
 ![Image 2](https://arjun.needs-to-s.top/8CYEraw.gif)
@@ -8,3 +16,4 @@ A very clean looking, messily coded Discord Theme. Currently in beta, feel free 
 ![Image 3](https://arjun.needs-to-s.top/7xE9LuJ.gif)
 
 ![Image 4](https://arjun.needs-to-s.top/94NMaJ3.png)
+
