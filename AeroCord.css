@@ -1,4 +1,3 @@
-/* End https://www.cursors-4u.com */
 
 :root {
   --background-image: url('https://arjun.needs-to-s.top/5RVeMbj.png');
@@ -12,6 +11,10 @@
   --primary-330: rgb(235, 235, 235) !important;
   --primary-500: #5665eb;
 
+}
+
+body {
+  /* cursor: url(https://ani.cursors-4u.net/toons/too-12/too1130.cur), auto !important; */
 }
 
 .embedFull__14919 {
@@ -61,7 +64,23 @@
 
 /* ----- */
 
-.autocomplete__743a5.autocomplete__2e602.autocompleteAttached__5d2a6, .autocomplete__743a5.autocomplete__2e602.autocompleteAttached__5d2a6, .scroller__3fc84.thin__62e51.scrollerBase__65223  {
+.tabBarItem_ce14f3 {
+  height: 0px;
+  padding-bottom: 25px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.tabBarItem_c97278 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.autocomplete__743a5.autocomplete__2e602.autocompleteAttached__5d2a6,
+.autocomplete__743a5.autocomplete__2e602.autocompleteAttached__5d2a6,
+.scroller__3fc84.thin__62e51.scrollerBase__65223 {
   backdrop-filter: blur(15px) !important;
 }
 
@@ -109,26 +128,18 @@
   box-shadow: inset 0px 0px 10px rgba(148, 246, 255, 0.2);
 }
 
-.scrollableContainer_ff917f:hover,
-.scrollableContainer_ff917f:focus,
-.scrollableContainer_ff917f:active,
-.searchBarComponent__8f95f:hover,
-.searchBar__310d8:hover {
-  background: rgba(106, 151, 255, 0.526);
-  box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
-  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
-  transition: 0.4s;
-}
-
 .channelTextArea_c2094b,
 .title_d4ba1a,
 .privateChannels__9b518,
 .subtitleContainer_f50402,
 .scroller__89969,
 .shop_b31ed2,
-.pageWrapper__18871 {
+.pageWrapper__18871,
+.header_ee0bd9.stickyHeader_a471c2,
+.titleContainer_d09261 {
   background-color: transparent !important;
 }
+
 
 .sidebar_e031be {
   background: rgba(35, 55, 53, 0.05);
@@ -187,7 +198,8 @@
 
 .attachedBars_c1606a,
 .clipContainer_ab9cf6,
-.container__72188 {
+.container__72188,
+.header_ee0bd9 {
   background-color: transparent !important;
   background-image: none !important;
 }
@@ -506,12 +518,13 @@
 
 .tooltip__7b090 {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgba(180, 255, 248, 0.15) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(5.5px);
   border: 1px solid rgba(148, 246, 255, 0.3);
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
-  background-color: rgba(180, 255, 248, 0.15) !important;
   transition: 0.1s;
+  text-shadow: rgb(29, 37, 47, 0.761) 1px 0 10px;
 }
 
 .header_e5d8b2 {
@@ -619,7 +632,8 @@
 }
 
 .navButtonActive__0c878,
-.item_e4ca95.selected_a523ff {
+.item_e4ca95.selected_a523ff,
+.item__48dda.selected_a523ff.themed_b957e8 {
   background: rgba(106, 151, 255, 0.526) !important;
   box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
   box-shadow: inset 0px 0px 5px rgba(148, 246, 255, 0.613);
@@ -740,7 +754,8 @@
 .container__3be1d:hover,
 .link_ddbb36:hover,
 .modeSelected__473f1 .link_ddbb36,
-.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeMedium__60c12.fullWidth_fdb23d.grow__4c8a4:hover {
+.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeMedium__60c12.fullWidth_fdb23d.grow__4c8a4:hover,
+.item__48dda:hover {
   background: rgba(106, 151, 255, 0.526) !important;
   box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
   box-shadow: inset 0px 0px 5px rgba(148, 246, 255, 0.613);
@@ -762,7 +777,8 @@
 }
 
 
-.item__183e8 {
+.item__183e8,
+.item__48dda {
   transition: 0.4s;
 }
 
@@ -908,9 +924,22 @@
 }
 
 
+.inputDefault__22335 {
+  border: 1.5px solid rgba(148, 246, 255, 0.3);
+  background: rgba(106, 151, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 10px rgba(148, 246, 255, 0.2);
+}
+
 .searchBar__310d8,
 .scrollableContainer_ff917f,
-.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeMedium__60c12.fullWidth_fdb23d.grow__4c8a4 {
+.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeMedium__60c12.fullWidth_fdb23d.grow__4c8a4,
+
+.searchBox__9423b,
+.searchBarComponent__53adf,
+.container_ec5ce2,
+.searchBar_ca009d {
   border: 1.5px solid rgba(148, 246, 255, 0.3);
   background: rgba(106, 151, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -919,6 +948,23 @@
   transition: 0.4s;
   box-shadow: inset 0px 0px 10px rgba(148, 246, 255, 0.2);
 }
+
+.scrollableContainer_ff917f:hover,
+.scrollableContainer_ff917f:focus,
+.scrollableContainer_ff917f:active,
+.searchBarComponent__53adf:hover,
+.searchBar_ca009d:hover,
+.container_ec5ce2:hover,
+.inputDefault__22335:hover,
+.searchBox__9423b:hover,
+.searchBarComponent__8f95f:hover,
+.searchBar__310d8:hover {
+  background: rgba(106, 151, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+  transition: 0.4s;
+}
+
 
 .peopleListItem_dab480:hover {
   background-color: transparent !important;
