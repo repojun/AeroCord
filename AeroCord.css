@@ -1,4 +1,3 @@
-
 :root {
   --background-image: url('https://arjun.needs-to-s.top/5RVeMbj.png');
   --interactive-normal: white;
@@ -199,7 +198,7 @@ body {
 .attachedBars_c1606a,
 .clipContainer_ab9cf6,
 .container__72188,
-.header_ee0bd9 {
+.header_ee0bd9, .flex_f18b02, .item_b7fb7e {
   background-color: transparent !important;
   background-image: none !important;
 }
@@ -585,7 +584,7 @@ body {
 
 .header__6d44a,
 .header__21b33,
-.footer__6b9ef {
+.footer__6b9ef, .radioBar__70669 {
   background: rgba(106, 151, 255, 0.2) !important;
   box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
   box-shadow: inset 0px 0px 5px rgba(148, 246, 255, 0.613);
@@ -607,6 +606,8 @@ body {
   transition: 0.4s;
   border: none !important
 }
+
+
 
 .messagesPopoutWrap__10dd1 .browser_fa9cea {
   background: none !important;
@@ -892,7 +893,10 @@ body {
 .container_eb737e,
 .reaction__4a43f,
 .jumpToPresentBar__69174,
-.popout__08442.root_a28985.small_f8e677.fullscreenOnMobile__05784.rootWithShadow_d20cd6, .messagesPopoutWrap__10dd1, .browser_fa9cea, .messages__1aaa1  {
+.popout__08442.root_a28985.small_f8e677.fullscreenOnMobile__05784.rootWithShadow_d20cd6,
+.messagesPopoutWrap__10dd1,
+.browser_fa9cea,
+.messages__1aaa1 {
   background-color: transparent !important;
   border: 1.5px solid rgba(148, 246, 255, 0.3);
   background: rgba(106, 151, 255, 0.2);
@@ -941,7 +945,8 @@ body {
 .searchBox__9423b,
 .searchBarComponent__53adf,
 .container_ec5ce2,
-.searchBar_ca009d {
+.searchBar_ca009d,
+.modal_f53429 {
   border: 1.5px solid rgba(148, 246, 255, 0.3);
   background: rgba(106, 151, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
