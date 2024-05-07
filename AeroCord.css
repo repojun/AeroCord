@@ -607,7 +607,18 @@ body {
   border: none !important
 }
 
+/* .users__65981 {
+  background: rgb(106, 151, 255) !important;
+}
 
+.total_c01838:after {
+  background: rgb(106, 151, 255)  !important;
+  border-right-color: rgb(77, 131, 255) ;
+}
+
+.total_c01838 {
+  background: rgb(77, 131, 255) !important;
+} */
 
 .messagesPopoutWrap__10dd1 .browser_fa9cea {
   background: none !important;
@@ -1060,7 +1071,7 @@ body {
 
 .button_d4bf9b:hover,
 .channelHeader_ea0f89,
-.wrapper__4e6b6 {
+.wrapper__4e6b6, .toolbar__894c6 {
   background: rgba(106, 151, 255, 0.526) !important;
   box-shadow: 0 4px 30px rgba(0, 255, 238, 0.1);
   box-shadow: inset 0px 0px 5px rgba(148, 246, 255, 0.613);
