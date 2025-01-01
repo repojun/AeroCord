@@ -49,7 +49,9 @@ body {
 .folder_bc7085,
 .gradient_d71945,
 .member_cbd271,
-.modeSelected_d8bfb3, .container_cbd271 {
+.modeSelected_d8bfb3,
+.container_cbd271,
+.theme-dark .children_fc4f04:after {
   background-color: transparent !important;
   background: none !important;
 }
@@ -180,7 +182,8 @@ body {
 
 .button_adcaac,
 .button_adca65,
-.button_bdf0de {
+.button_bdf0de,
+.icon_fc4f04 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,13 +204,20 @@ body {
 
 /* .attachButton_f298d4 */
 
-.button_bdf0de {
+.button_bdf0de,
+.icon_fc4f04 {
   padding: 6px 6px;
+}
+
+.icon_fc4f04 {
+  width: 30px;
+  height: 30px;
 }
 
 .button_adcaac:hover,
 .button_adca65:hover,
-.button_bdf0de:hover {
+.button_bdf0de:hover,
+.icon_fc4f04:hover {
   background-color: rgb(0, 47, 255) !important;
   transition: 0.2s;
   transform: translateY(-3px);
