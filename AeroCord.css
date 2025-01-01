@@ -258,7 +258,9 @@ body {
   transition: 0.4s;
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
-
+.privateChannelRecipientsInviteButtonIcon_c47fa9 {
+  width: 10px !important !important;
+}
 .container_b2ca13 {
   background: rgba(180, 255, 248, 0.05) !important;
 }
