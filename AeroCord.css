@@ -203,6 +203,24 @@ body {
 }
 
 /* .attachButton_f298d4 */
+.privateChannelRecipientsInviteButtonIcon_c47fa9 {
+  background-color: transparent !important;
+  padding: 0px 0px !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  border: none !important;
+  display: block !important;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.privateChannelRecipientsInviteButtonIcon_c47fa9:hover {
+  background-color: none !important;
+  background: none !important;
+  transition: 0.2s;
+  transform: none !important;
+}
 
 .button_bdf0de,
 .icon_fc4f04 {
@@ -258,9 +276,7 @@ body {
   transition: 0.4s;
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
-.privateChannelRecipientsInviteButtonIcon_c47fa9 {
-  width: 10px !important !important;
-}
+
 .container_b2ca13 {
   background: rgba(180, 255, 248, 0.05) !important;
 }
