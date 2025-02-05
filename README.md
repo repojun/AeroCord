@@ -1,7 +1,7 @@
-# CURRENTLY BEING REBUILT⚠️
-## Discords new module updates have caused this theme to not work anymore, this is an currently in an ALPHA build. You will see MANY issues!
+# CURRENTLY UNSTABLE⚠️
+## Discords new module updates have caused this theme to not work anymore. Discord keeps redesigning their UI so there's no telling when this theme will and won't work.
 # AeroCord Theme
-A very clean looking, messily coded Discord Theme. Currently in alpha, feel free to test!
+A very clean looking, messily coded Discord Theme.
 
 
 ## 🔧 Simple Installation:
