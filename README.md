@@ -1,5 +1,5 @@
-# CURRENTLY NOT WORKING⚠️
-## Discords new module updates have caused this theme to not work anymore. I'm not sure if I will work on it again since discord keeps redesigning their UI 
+# CURRENTLY UNSTABLE⚠️
+## Discords new module updates have caused this theme to not work anymore. Discord keeps redesigning their UI so there's no telling when this theme will and won't work.
 # AeroCord Theme
 A very clean looking, messily coded Discord Theme.
 
