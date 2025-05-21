@@ -1,4 +1,4 @@
-# CURRENTLY UNSTABLE⚠️
+# CURRENTLY UNSTABLE⚠️ / Heavily wip
 ## Discords new module updates have caused this theme to not work anymore. Discord keeps redesigning their UI so there's no telling when this theme will and won't work.
 # AeroCord Theme
 A very clean looking, messily coded Discord Theme. Specifically edited in [Vesktop on linux mint](https://github.com/Vencord/Vesktop) 
@@ -22,6 +22,13 @@ I really liked the idea of this theme but it had some issues I wanted ironed out
 2. The left hand bar of a server needs made transparent.
 3. a lot of the buttons seem dim/dark.
 4. settings page and activities bar need transparent.
+
+## Things I changed
+1. Meta data for vesktop.
+2. Joined a few clashing lines.
+3. Moved and centered the profile banner to the right.
+4. Extended server list bar to be flush with the bottom. 
+5. Removed rounded edges from redesign. 
 
 ## Differences (all on vesktop) old
 
