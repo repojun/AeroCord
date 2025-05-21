@@ -10,11 +10,15 @@ A very clean looking, messily coded Discord Theme. Specifically edited in [Veskt
 - Navigate to Discord Settings -> Vencord -> Themes -> Open Themes Folder -> Paste AeroCord.css into the directory -> Back to vencord, load missing and activate!
 - Enjoy!
 
-## Original author [repojun](https://github.com/repojun/AeroCord)
+## Original author [Repojun](https://github.com/repojun/AeroCord)
 I really liked the idea of this theme but it had some issues I wanted ironed out. 
 
-## Differences (all on vesktop)
+## Differences (all on vesktop) old
 
-# old
 ![Image 1](https://github.com/Twisty10000/AeroCord/blob/main/Images/image1old.png?raw=true)
 ![Image 2](https://github.com/Twisty10000/AeroCord/blob/main/Images/image2old.png?raw=true)
+
+## Differences (all on vesktop) new
+
+![Image 1](https://github.com/Twisty10000/AeroCord/blob/main/Images/image1new.png?raw=true)
+![Image 2](https://github.com/Twisty10000/AeroCord/blob/main/Images/image2new.png?raw=true)
