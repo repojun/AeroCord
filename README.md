@@ -9,6 +9,7 @@ A very clean looking, messily coded Discord Theme. Specifically edited in [Veskt
 - Download AeroCord.css: [Latest AeroCord File](https://github.com/Twisty10000/AeroCord/blob/main/AeroCord.css)
 - Navigate to Discord Settings -> Vencord -> Themes -> Open Themes Folder -> Paste AeroCord.css into the directory -> Back to vencord, load missing and activate!
 - Enjoy!
+![Activate!](https://github.com/Twisty10000/AeroCord/blob/main/Images/ActivateTheme.png?raw=true)
 
 ## Original author [Repojun](https://github.com/repojun/AeroCord)
 I really liked the idea of this theme but it had some issues I wanted ironed out. 
