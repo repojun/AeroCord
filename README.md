@@ -29,6 +29,7 @@ I really liked the idea of this theme but it had some issues I wanted ironed out
 3. Moved and centered the profile banner to the right.
 4. Extended server list bar to be flush with the bottom. 
 5. Removed rounded edges from redesign. 
+6. Shifted server list down to be more even with the average of all top content (looks better imo)
 
 ## Differences (all on vesktop) old
 
