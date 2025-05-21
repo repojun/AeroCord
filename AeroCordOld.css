@@ -1,10 +1,3 @@
-/**
- * @name AeroCord
- * @author Repojun
- * @description glossy surfaces, bright gradients, glassy buttons, and tech-inspired typography.
- * @version 0.0.2
- */
- 
 :root {
   --background-image: url("https://arjun.needs-to-s.top/5RVeMbj.png");
   --interactive-normal: white;
@@ -58,8 +51,7 @@
 .member_c8ffbb,
 .modeSelected__2ea32,
 .container_c8ffbb,
-.theme-dark .children__9293f:after ,
-::after{
+.theme-dark .children__9293f:after {
   background-color: transparent !important;
   background: none !important;
 }
@@ -271,10 +263,6 @@
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
 
-.wrapper_ef3116 {
-  margin-bottom: 0px !important;
-}
-
 .panel__5dec7,
 .activityPanel_c48ade,
 .container_e131a9,
@@ -291,26 +279,4 @@
 
 .container__37e49 {
   background: rgba(180, 255, 248, 0.05) !important;
-}
-
-.panels_c48ade{
-  margin-left: 73px;
-  width: 77% !important;
-  padding-bottom: 13px;
-}
-
-.itemsContainer_ef3116{
-  margin-top: 15px;
-}
-
-.container__133bf, .page_c48ade, .tabBody__133bf, .upperContainer__9293f, .upperContainer__9293f, .children__9293f, .container__9293f, .grid__623de, .gridContainer__623de, .visual-refresh .embedFull__623de, .sidebarList_c48ade, .scroller__7d20c, .thin_d125d2, .scrollerBase_d125d2{
-  background-color: transparent !important;
-}
-
-.visual-refresh, .sidebarListRounded_c48ade{
-  border-top-left-radius: 0px !important; /*Get rid of that dumb top left corner rounded bit*/
-}
-
-.toolbar__9293f, .iconWrapper__9293f, .clickable__9293f{
-  font-size: larger !important;
 }
