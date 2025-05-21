@@ -1,7 +1,9 @@
 # CURRENTLY UNSTABLE⚠️
 ## Discords new module updates have caused this theme to not work anymore. Discord keeps redesigning their UI so there's no telling when this theme will and won't work.
 # AeroCord Theme
-A very clean looking, messily coded Discord Theme. Specifically edited in [Vesktop on linux mint](https://github.com/Vencord/Vesktop)
+A very clean looking, messily coded Discord Theme. Specifically edited in [Vesktop on linux mint](https://github.com/Vencord/Vesktop) 
+
+Original author [Repojun](https://github.com/repojun/AeroCord)
 
 
 ## 🔧 Simple Installation:
