@@ -1,24 +1,42 @@
-# CURRENTLY UNSTABLE⚠️
+# CURRENTLY UNSTABLE⚠️ / Heavily wip
 ## Discords new module updates have caused this theme to not work anymore. Discord keeps redesigning their UI so there's no telling when this theme will and won't work.
 # AeroCord Theme
-A very clean looking, messily coded Discord Theme.
+A very clean looking, messily coded Discord Theme. Specifically edited in [Vesktop on linux mint](https://github.com/Vencord/Vesktop) 
+
+Original author [Repojun](https://github.com/repojun/AeroCord)
 
 
 ## 🔧 Simple Installation:
-- Download and Install BetterDiscord: [BetterDiscord](https://betterdiscord.app)
-- Download AeroCord.css: [Latest AeroCord File](https://github.com/repojun/AeroCord/blob/main/AeroCord.css)
-- Navigate to Discord Settings -> BetterDiscord -> Custom CSS -> Paste AeroCord.css into the text area
-![Installation Image](https://arjun.needs-to-s.top/7YvCjif.png)
+- Download and Install Vesktop: [Vesktop](https://github.com/Vencord/Vesktop)
+- Download AeroCord.css: [Latest AeroCord File](https://github.com/Twisty10000/AeroCord/blob/main/AeroCord.css)
+- Navigate to Discord Settings -> Vencord -> Themes -> Open Themes Folder -> Paste AeroCord.css into the directory -> Back to vencord, load missing and activate!
 - Enjoy!
+![Activate!](https://github.com/Twisty10000/AeroCord/blob/main/Images/ActivateTheme.png?raw=true)
 
-## ⚠️ Turn on hardware acceleration if you experience any performance issues.
+*For best looking buttons change your base appearance to ash.
 
-## Screenshots
-![Image 1](https://arjun.needs-to-s.top/2t2WPLP.gif)
+## Original author [Repojun](https://github.com/repojun/AeroCord)
+I really liked the idea of this theme but it had some issues I wanted ironed out. Not sure if I’ll do more with this but in case I feel like it or someone else does here are some things the theme still needs fixed. 
 
-![Image 2](https://arjun.needs-to-s.top/8CYEraw.gif)
+1. At least for me the buttons in a dm (such as calling a friend) are horribly small.
+2. The left hand bar of a server needs made transparent.
+3. a lot of the buttons seem dim/dark.
+4. settings page and activities bar need transparent.
 
-![Image 3](https://arjun.needs-to-s.top/7xE9LuJ.gif)
+## Things I changed
+1. Meta data for vesktop.
+2. Joined a few clashing lines.
+3. Moved and centered the profile banner to the right.
+4. Extended server list bar to be flush with the bottom. 
+5. Removed rounded edges from redesign. 
+6. Transparent Embeds.
 
-![Image 4](https://arjun.needs-to-s.top/94NMaJ3.png)
+## Differences (all on vesktop) old
 
+![Image 1](https://github.com/Twisty10000/AeroCord/blob/main/Images/image1old.png?raw=true)
+![Image 2](https://github.com/Twisty10000/AeroCord/blob/main/Images/image2old.png?raw=true)
+
+## Differences (all on vesktop) new
+
+![Image 1](https://github.com/Twisty10000/AeroCord/blob/main/Images/image1new.png?raw=true)
+![Image 2](https://github.com/Twisty10000/AeroCord/blob/main/Images/image2new.png?raw=true)
