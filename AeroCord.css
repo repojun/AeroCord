@@ -320,16 +320,17 @@
   margin-top: 15px;
 }
 
-.container__9293f{
-  box-sizing: none !important;
-}
-
 .toolbar__9293f{
   font-size: larger !important;
   margin-right: 30px;
 }
 
-.container__133bf, .page_c48ade, .tabBody__133bf, .upperContainer__9293f, .upperContainer__9293f, .children__9293f, .grid__623de, .gridContainer__623de, .visual-refresh .embedFull__623de, .sidebarList_c48ade, .scroller__7d20c, .thin_d125d2{
+.container__9293f, .container__9293f *{
+  box-sizing: unset !important;
+  background-color: transparent !important;
+}
+
+.container__133bf, .page_c48ade, .tabBody__133bf, .children__9293f, .grid__623de, .gridContainer__623de, .visual-refresh .embedFull__623de, .sidebarList_c48ade, .scroller__7d20c, .thin_d125d2{
   background-color: transparent !important;
 }
 
