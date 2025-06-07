@@ -6,7 +6,7 @@
  */
  
 :root {
-  --background-image: url("");
+  --background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true");
   --interactive-normal: white;
   --channel-text-area-placeholder: rgba(255, 255, 255, 0.546) !important;
   --text-muted: rgba(188, 238, 255, 0.622) !important;
@@ -29,8 +29,8 @@
 /* Main container need to make others transparent */
 .container_c48ade {
   background-size: 100% 100%;
-  background-image: url("") !important;
-  background-image: url("") !important;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
 }
 
 .channelTextArea_f75fb0,
