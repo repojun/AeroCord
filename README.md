@@ -5,13 +5,13 @@
 ![Image 1](https://github.com/Twisty10000/AeroCord/blob/main/Images/New%20DropDowns.png?raw=true)
 All Dropdowns are reverted to no longer be transparent as it was hard as heck to read lol.
 
-![Image 2]([https://arjun.needs-to-s.top/8CYEraw.gif](https://github.com/Twisty10000/AeroCord/blob/main/Images/NewCallStatus.png?raw=true)
+![Image 2](https://github.com/Twisty10000/AeroCord/blob/main/Images/NewCallStatus.png?raw=true)
 Fixed up the call status box as it was kinda weird lookin.
 
-![Image 3]([https://arjun.needs-to-s.top/7xE9LuJ.gif](https://github.com/Twisty10000/AeroCord/blob/main/Images/oldCallStatus.png?raw=true)
+![Image 3](https://github.com/Twisty10000/AeroCord/blob/main/Images/oldCallStatus.png?raw=true)
 (Old Call Status)
 
-![Image 4]([https://arjun.needs-to-s.top/94NMaJ3.png](https://github.com/Twisty10000/AeroCord/blob/main/Images/NewButtons.png?raw=true)
+![Image 4](https://github.com/Twisty10000/AeroCord/blob/main/Images/NewButtons.png?raw=true)
 Fixed Buttons with better coloring and scale.
 
 Also fixed the activities page, would take a picture but eh.
