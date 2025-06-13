@@ -6,7 +6,7 @@
  */
  
 :root {
-  --background-image: url("https://arjun.needs-to-s.top/5RVeMbj.png");
+  --background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true");
   --interactive-normal: white;
   --channel-text-area-placeholder: rgba(255, 255, 255, 0.546) !important;
   --text-muted: rgba(188, 238, 255, 0.622) !important;
@@ -29,8 +29,8 @@
 /* Main container need to make others transparent */
 .container_c48ade {
   background-size: 100% 100%;
-  background-image: url("https://arjun.needs-to-s.top/5RVeMbj.png") !important;
-  background-image: url("https://arjun.needs-to-s.top/6s1hqaA.png") !important;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
 }
 
 .channelTextArea_f75fb0,
@@ -58,13 +58,17 @@
 .member_c8ffbb,
 .modeSelected__2ea32,
 .container_c8ffbb,
-.theme-dark .children__9293f:after ,
+.theme-dark .children__9293f:after,
+.container__7d20c,
 ::after{
   background-color: transparent !important;
   background: none !important;
 }
-
+.container__9293f, .themed__9293f{
+  background-color: transparent !important;
+}
 /* Tool Tip */
+
 
 .buttonsInner__5126c {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -275,9 +279,22 @@
   margin-bottom: 0px !important;
 }
 
+.container_e131a9{
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+  margin: 0px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
 .panel__5dec7,
 .activityPanel_c48ade,
-.container_e131a9,
 .container__37e49 {
   background-color: transparent !important;
   background: rgba(180, 255, 248, 0) !important;
@@ -303,7 +320,17 @@
   margin-top: 15px;
 }
 
-.container__133bf, .page_c48ade, .tabBody__133bf, .upperContainer__9293f, .upperContainer__9293f, .children__9293f, .container__9293f, .grid__623de, .gridContainer__623de, .visual-refresh .embedFull__623de, .sidebarList_c48ade, .scroller__7d20c, .thin_d125d2, .scrollerBase_d125d2{
+.toolbar__9293f{
+  font-size: larger !important;
+  margin-right: 30px;
+}
+
+.container__9293f, .container__9293f *{
+  box-sizing: unset !important;
+  background-color: transparent !important;
+}
+
+.container__133bf, .page_c48ade, .tabBody__133bf, .children__9293f, .grid__623de, .gridContainer__623de, .visual-refresh .embedFull__623de, .sidebarList_c48ade, .scroller__7d20c, .thin_d125d2{
   background-color: transparent !important;
 }
 
@@ -311,6 +338,10 @@
   border-top-left-radius: 0px !important; /*Get rid of that dumb top left corner rounded bit*/
 }
 
-.toolbar__9293f, .iconWrapper__9293f, .clickable__9293f{
+.iconWrapper__9293f, .clickable__9293f{
   font-size: larger !important;
+}
+
+.visual-refresh .clickable__9293f .icon__9293f, .lottieIcon__5eb9b .svg{
+  color: white;
 }
