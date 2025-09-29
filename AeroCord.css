@@ -27,7 +27,7 @@
 }
 
 /* Main container need to make others transparent */
-.container_c48ade {
+.container_c48ade, .standardSidebarView__23e6b{
   background-size: 100% 100%;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
@@ -59,7 +59,7 @@
 .modeSelected__2ea32,
 .container_c8ffbb,
 .theme-dark .children__9293f:after,
-.container__7d20c,
+.container__7d20c
 ::after{
   background-color: transparent !important;
   background: none !important;
@@ -267,7 +267,8 @@
 }
 
 .sidebar_c48ade,
-.wrapper_ef3116 {
+.wrapper_ef3116,
+.sidebarRegion__23e6b{
   background: rgba(35, 55, 53, 0.05);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(150px);
@@ -325,7 +326,7 @@
   margin-right: 30px;
 }
 
-.container__9293f, .container__9293f *{
+.container__9293f, .container__9293f, .contentRegion__23e6b, .contentTransitionWrap__23e6b *{
   box-sizing: unset !important;
   background-color: transparent !important;
 }
@@ -344,4 +345,20 @@
 
 .visual-refresh .clickable__9293f .icon__9293f, .lottieIcon__5eb9b .svg{
   color: white;
+}
+
+
+/*/////////////////////////////////*/
+
+.editor-wrapper {
+    background: rgba(180, 255, 248, 0.05) !important;
+}
+
+.monaco-editor .cursor {
+  border-left: 1px solid white !important;
+}
+
+.monaco-editor .selected-text {
+  background-color: rgba(106, 151, 255, 0.5) !important;
+  color: white !important;
 }
