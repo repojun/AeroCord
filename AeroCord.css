@@ -312,8 +312,8 @@
 }
 
 .panels_c48ade{
-  margin-left: 73px;
-  width: 77% !important;
+  /* margin-left: 73px; */
+  /* width: 77% !important; */
   padding-bottom: 13px;
 }
 
@@ -345,6 +345,17 @@
 
 .visual-refresh .clickable__9293f .icon__9293f, .lottieIcon__5eb9b .svg{
   color: white;
+}
+
+.outer_c0bea0 {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
 
 
