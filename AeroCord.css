@@ -2,7 +2,7 @@
  * @name AeroCord
  * @author Repojun
  * @description glossy surfaces, bright gradients, glassy buttons, and tech-inspired typography.
- * @version 0.0.3
+ * @version 0.0.4
  */
  
 :root {
@@ -374,7 +374,8 @@
 /* inbox popup */
 .channelHeader__35a7e,
 .recentMentionsPopout__95796,
-.messageContainer__95796 {
+.messageContainer__95796,
+.layer__59d0d {
   background-color: transparent !important;
   background: rgba(180, 255, 248, 0) !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -385,6 +386,37 @@
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
 
+.menu_c1e9c4 {
+  /* background-color: transparent !important; */
+  /* background: rgba(148, 246, 255, 0.3) !important; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+}
+
+
+/* typing indicator */
+.typing_b88801,
+.base_b88801,
+.inTextChannel_b88801 {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+}
+
+.chatGradient__36d07,
+.chatGradientBase__36d07 {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+}
 
 /*/////////////////////////////////*/
 
