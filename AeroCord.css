@@ -2,7 +2,7 @@
  * @name AeroCord
  * @author Repojun
  * @description glossy surfaces, bright gradients, glassy buttons, and tech-inspired typography.
- * @version 0.0.2
+ * @version 0.0.4
  */
  
 :root {
@@ -59,7 +59,8 @@
 .modeSelected__2ea32,
 .container_c8ffbb,
 .theme-dark .children__9293f:after,
-.container__7d20c
+.container__7d20c,
+.layer__59d0d
 ::after{
   background-color: transparent !important;
   background: none !important;
@@ -195,7 +196,8 @@
 .button_e131a9,
 .button__67645,
 .button__74017,
-.icon__9293f {
+.icon__9293f,
+.clickable_c99c29 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -235,7 +237,8 @@
 }
 
 .button__74017,
-.icon__9293f {
+.icon__9293f,
+.clickable_c99c29 {
   padding: 6px 6px;
 }
 
@@ -244,10 +247,16 @@
   height: 30px;
 }
 
+.clickable_c99c29 {
+  width: 15px;
+  height: 15px;
+}
+
 .button_e131a9:hover,
 .button__67645:hover,
 .button__74017:hover,
-.icon__9293f:hover {
+.icon__9293f:hover,
+.clickable_c99c29:hover {
   background-color: rgb(0, 47, 255) !important;
   transition: 0.2s;
   transform: translateY(-3px);
@@ -312,8 +321,8 @@
 }
 
 .panels_c48ade{
-  margin-left: 73px;
-  width: 77% !important;
+  /* margin-left: 73px; */
+  /* width: 77% !important; */
   padding-bottom: 13px;
 }
 
@@ -343,10 +352,71 @@
   font-size: larger !important;
 }
 
-.visual-refresh .clickable__9293f .icon__9293f, .lottieIcon__5eb9b .svg{
+.visual-refresh .clickable__9293f .icon__9293f, .lottieIcon__5eb9b, .clickable_c99c29 .svg{
   color: white;
 }
 
+.outer_c0bea0 {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+}
+
+.layer__59d0d,
+.container_fc561d,
+.header_ab6641,
+.messages__1ccd1,
+/* inbox popup */
+.channelHeader__35a7e,
+.recentMentionsPopout__95796,
+.messageContainer__95796,
+.layer__59d0d {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+}
+
+.menu_c1e9c4 {
+  /* background-color: transparent !important; */
+  /* background: rgba(148, 246, 255, 0.3) !important; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+}
+
+
+/* typing indicator */
+.typing_b88801,
+.base_b88801,
+.inTextChannel_b88801 {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(148, 246, 255, 0.3);
+  transition: 0.4s;
+  box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
+}
+
+.chatGradient__36d07,
+.chatGradientBase__36d07 {
+  background-color: transparent !important;
+  background: rgba(180, 255, 248, 0) !important;
+}
 
 /*/////////////////////////////////*/
 
