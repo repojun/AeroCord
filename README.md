@@ -1,7 +1,7 @@
 # CURRENTLY UNSTABLE⚠️
 ## You will see MANY issues, smaller icons, broken elements etc.
 ## Discords new module updates have caused this theme to not work anymore. Discord keeps redesigning their UI so there's no telling when this theme will and won't work.
-## Huge thanks to [Twisty10000](https://github.com/Twisty10000), [ricewind012](https://github.com/ricewind012), [CalvinWieland](https://github.com/CalvinWieland) &[Diode-exe](https://github.com/Diode-exe) for their pull requests as I have been incredibly busy.
+## Huge thanks to [Twisty10000](https://github.com/Twisty10000), [ricewind012](https://github.com/ricewind012), [CalvinWieland](https://github.com/CalvinWieland) & [Diode-exe](https://github.com/Diode-exe) for their pull requests as I have been incredibly busy.
 # AeroCord Theme
 A very clean looking, messily coded Discord Theme.
 
