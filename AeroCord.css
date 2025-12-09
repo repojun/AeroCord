@@ -4,6 +4,9 @@
  * @description glossy surfaces, bright gradients, glassy buttons, and tech-inspired typography.
  * @version 0.0.4
  */
+
+/* this theme will bog Discord down really badly, you have been warned */
+/* Most of this is undocumented and half of it is probably unneccesary, but I doubt anyone will take the time to fix it */
  
 :root {
   --background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true");
@@ -60,7 +63,8 @@
 .container_c8ffbb,
 .theme-dark .children__9293f:after,
 .container__7d20c,
-.layer__59d0d
+.layer__59d0d,
+.panels__5e434
 ::after{
   background-color: transparent !important;
   background: none !important;
@@ -316,9 +320,9 @@
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
 
-.container__37e49 {
+/* .container__37e49 {
   background: rgba(180, 255, 248, 0.05) !important;
-}
+} */
 
 .panels_c48ade{
   /* margin-left: 73px; */
