@@ -27,7 +27,7 @@
 }
 
 /* Main container need to make others transparent */
-.container_c48ade, .standardSidebarView__23e6b{
+.container_c48ade, .standardSidebarView__23e6b, .members_c8ffbb, .thin_d125d2, .scrollerBase_d125d2, .fade_d125d2{
   background-size: 100% 100%;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
@@ -374,8 +374,7 @@
 /* inbox popup */
 .channelHeader__35a7e,
 .recentMentionsPopout__95796,
-.messageContainer__95796,
-.layer__59d0d {
+.messageContainer__95796 {
   background-color: transparent !important;
   background: rgba(180, 255, 248, 0) !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
