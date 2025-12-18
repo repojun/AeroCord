@@ -19,6 +19,8 @@ A very clean looking, messily coded Discord Theme.
 
 ## ⚠️ Turn on hardware acceleration if you experience any performance issues.
 
+## Please document what classes you are using if you make a change, use the current comments as boilerplate
+
 ## Screenshots
 ![Image 1](https://arjun.needs-to-s.top/2t2WPLP.gif)
 
