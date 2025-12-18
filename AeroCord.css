@@ -457,9 +457,25 @@
   background-color: transparent !important;
 }
 
- /* Main container need to make others transparent  */
-.a3002d7de5be5280-appAsidePanelWrapper, .a3002d7de5be5280-notAppAsidePanel, .a3002d7de5be5280-app, ._960e4207cea8323e-bg, .scrollerBase_d125d2, .fade_d125d2, .container_c8ffbb, .membersWrap_c8ffbb, .hiddenMembers_c8ffbb{
+ /* Main container need to make others transparent and themed (I think, I don't know, this isn't my code - Diode-exe) */
+.a3002d7de5be5280-appAsidePanelWrapper,
+.a3002d7de5be5280-notAppAsidePanel, 
+.a3002d7de5be5280-app, 
+._960e4207cea8323e-bg, 
+._960e4207cea8323e-layer, 
+._960e4207cea8323e-baseLayer, 
+._5e434347c823b592-container, 
+._5e434347c823b592-base, 
+._5e434347c823b592-content, 
+._5e434347c823b592-sidebar,
+._5e434347c823b592-sidebar,
+.ef3116c2da186559-wrapper{
   background-size: 100% 100%;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
 } 
+
+._5e434347c823b592-guilds {
+  background-color: transparent !important;
+  background: none !important;
+}
