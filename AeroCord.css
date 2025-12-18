@@ -457,7 +457,7 @@
   background-color: transparent !important;
 }
 
- /* Main container need to make others transparent and themed (I think, I don't know, this isn't my code - Diode-exe) */
+ /* Main container need to make others transparent and themed (I think, I don't know, this is stolen from the broken stuff - Diode-exe) */
 .a3002d7de5be5280-appAsidePanelWrapper,
 .a3002d7de5be5280-notAppAsidePanel, 
 .a3002d7de5be5280-app, 
@@ -475,7 +475,21 @@
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
 } 
 
-._5e434347c823b592-guilds {
+
+/* this is the servers list on the left as well as the channels list next to it */
+._5e434347c823b592-guilds,
+._5e434347c823b592-sidebarList,
+._2637a2609f343032-container {
   background-color: transparent !important;
   background: none !important;
+}
+
+/* this is the avatar and mute/deafen/settings button element */
+._5e434347c823b592-panels {
+    background-color: rgba(255, 255, 255, 0.3); /* tint + transparency */
+    backdrop-filter: blur(10px);                 /* blur whatever is behind */
+    -webkit-backdrop-filter: blur(10px);        /* Safari support */
+    border-radius: 12px;                         /* optional rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border for depth */
+    color: black;                                /* text color */
 }
