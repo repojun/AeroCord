@@ -438,3 +438,28 @@
   background-color: rgba(106, 151, 255, 0.5) !important;
   color: white !important;
 }  */
+
+:root {
+  --background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true");
+  --interactive-normal: white;
+  --channel-text-area-placeholder: rgba(255, 255, 255, 0.546) !important;
+  --text-muted: rgba(188, 238, 255, 0.622) !important;
+  --channels-default: rgb(160, 199, 212) !important;
+  --interactive-muted: rgba(192, 239, 255, 0.381) !important;
+  --channel-icon: rgb(160, 199, 212) !important;
+  --header-secondary: rgb(179, 232, 249) !important;
+  --primary-330: rgb(235, 235, 235) !important;
+  --primary-500: #5665eb !important;
+}
+
+/* I'm keeping this in for back-compat (as well as I have no idea what it does)*/
+[class^="embedFull"] {
+  background-color: transparent !important;
+}
+
+ /* Main container need to make others transparent  */
+.a3002d7de5be5280-appAsidePanelWrapper, .a3002d7de5be5280-notAppAsidePanel, .a3002d7de5be5280-app, ._960e4207cea8323e-bg, .scrollerBase_d125d2, .fade_d125d2, .container_c8ffbb, .membersWrap_c8ffbb, .hiddenMembers_c8ffbb{
+  background-size: 100% 100%;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
+} 
