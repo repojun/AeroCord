@@ -438,3 +438,134 @@
   background-color: rgba(106, 151, 255, 0.5) !important;
   color: white !important;
 }  */
+
+:root {
+  --background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true");
+  --interactive-normal: white;
+  --channel-text-area-placeholder: rgba(255, 255, 255, 0.546) !important;
+  --text-muted: rgba(188, 238, 255, 0.622) !important;
+  --channels-default: rgb(160, 199, 212) !important;
+  --interactive-muted: rgba(192, 239, 255, 0.381) !important;
+  --channel-icon: rgb(160, 199, 212) !important;
+  --header-secondary: rgb(179, 232, 249) !important;
+  --primary-330: rgb(235, 235, 235) !important;
+  --primary-500: #5665eb !important;
+}
+
+/* I'm keeping this in for back-compat (as well as I have no idea what it does)*/
+[class^="embedFull"] {
+  background-color: transparent !important;
+}
+
+ /* Main container need to make others transparent and themed (I think, I don't know, this is stolen from the broken stuff - Diode-exe) */
+.a3002d7de5be5280-appAsidePanelWrapper,
+.a3002d7de5be5280-notAppAsidePanel, 
+.a3002d7de5be5280-app, 
+._960e4207cea8323e-bg, 
+._960e4207cea8323e-layer, 
+._960e4207cea8323e-baseLayer, 
+._5e434347c823b592-container, 
+._5e434347c823b592-base, 
+._5e434347c823b592-content, 
+._5e434347c823b592-sidebar,
+._5e434347c823b592-sidebar,
+.ef3116c2da186559-wrapper{
+  background-size: 100% 100%;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
+  background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
+} 
+
+
+/* this is the servers list on the left as well as the channels list next to it */
+._5e434347c823b592-guilds,
+._5e434347c823b592-sidebarList,
+._2637a2609f343032-container {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* this is the avatar and mute/deafen/settings button element */
+._5e434347c823b592-panels {
+    background-color: rgba(57, 38, 96, 0.3);
+    backdrop-filter: blur(5px);        
+    -webkit-backdrop-filter: blur(10px);                   
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* makes the avatar element buttons jump on hover, mic/mute, hp/defean, gear/stngs respectively */
+  ._37e49614b9f110a9-micButtonParent:hover {
+    transition: 0.2s;
+    transform: translateY(-3px);
+  }
+
+  ._37e49614b9f110a9-micButtonParent:hover {
+    transition: 0.2s;
+    transform: translateY(-3px);
+  }
+
+  ._67645e1530f1195d-button:hover {
+    transition: 0.2s;
+    transform: translateY(-3px);
+  }
+
+/* these are the buttons at the top right, pinned msgs, threads, etc */
+._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected, .c99c29809d200a61-clickable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 100px;
+  padding: 8px 8px;
+  color: #fff;
+  text-align: center;
+  transition: 0.2s;
+  text-shadow: 0 1px 1px #112ae7 !important;
+  background-color: #4452d8 !important;
+  border: 1px solid #4356ff !important;
+  transition: 0.4s;
+  background-image: radial-gradient(75% 50% at 50% 0%, #f4feff, transparent), radial-gradient(75% 35% at 50% 85%, #8d93fc, transparent) !important;
+  box-shadow: inset 0 -2px 4px 1px rgba(17, 46, 231, 0.6), inset 0 -4px 4px 1px #8d96fc, inset 0 0 2px 1px rgba(255, 255, 255, 0.2),
+    0 1px 4px 1px rgba(17, 46, 231, 0.2), 0 1px 4px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* channel name bar, with search and threads, pinned msgs buttons */
+.f75fb00fb7356cbe-subtitleContainer,
+.f75fb00fb7356cbe-title,
+._9293f6b2fc12398a-container,
+._9293f6b2fc12398a-themed,
+._9293f6b2fc12398a-upperContainer,
+._9293f6b2fc12398a-children,
+._5e434347c823b592-page, 
+.f75fb00fb7356cbe-chat {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+
+/* the messages scroller */
+.f75fb00fb7356cbe-chatContent,
+.f75fb00fb7356cbe-content,
+._36d072eab2b2e737-messagesWrapper,
+._36d072eab2b2e737-scroller,
+.d125d22cdfd32cfe-customTheme,
+.d125d22cdfd32cfe-auto,
+.d125d22cdfd32cfe-scrollerBase {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* members list on right side */
+.d125d22cdfd32cfe-content,
+.c8ffbb79449f399c-container,
+._5d473ecff348c314-member,
+.c8ffbb79449f399c-member,
+._91a9d7f7e5248a56-container,
+._91a9d7f7e5248a56-clickable {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* profile pictures in chat */
+.c19a557985eb7793-avatar {
+  border-radius: 0px;
+}
