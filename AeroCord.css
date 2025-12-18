@@ -542,3 +542,27 @@
   background-color: transparent !important;
   background: none !important;
 }
+
+
+/* the messages scroller */
+.f75fb00fb7356cbe-chatContent,
+.f75fb00fb7356cbe-content,
+._36d072eab2b2e737-messagesWrapper,
+._36d072eab2b2e737-scroller,
+.d125d22cdfd32cfe-customTheme,
+.d125d22cdfd32cfe-auto,
+.d125d22cdfd32cfe-scrollerBase {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* members list on right side */
+.d125d22cdfd32cfe-content,
+.c8ffbb79449f399c-container,
+._5d473ecff348c314-member,
+.c8ffbb79449f399c-member,
+._91a9d7f7e5248a56-container,
+._91a9d7f7e5248a56-clickable {
+  background-color: transparent !important;
+  background: none !important;
+}
