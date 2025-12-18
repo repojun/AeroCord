@@ -1,14 +1,17 @@
-/**
+/* *
  * @name AeroCord
  * @author Repojun
  * @description glossy surfaces, bright gradients, glassy buttons, and tech-inspired typography.
  * @version 0.0.4
- */
+*/
 
-/* this theme will bog Discord down really badly, you have been warned */
-/* Most of this is undocumented and half of it is probably unneccesary, but I doubt anyone will take the time to fix it */
- 
-:root {
+/*
+
+ this theme will bog Discord down really badly, you have been warned 
+ Most of this is undocumented and half of it is probably unneccesary, but I doubt anyone will take the time to fix it 
+ NONE OF THIS COMMENTED OUT STUFF WORKS. AT ALL. 
+
+ :root {
   --background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true");
   --interactive-normal: white;
   --channel-text-area-placeholder: rgba(255, 255, 255, 0.546) !important;
@@ -21,22 +24,22 @@
   --primary-500: #5665eb !important;
 }
 
-/* body {
+ body {
   cursor: url(https://ani.cursors-4u.net/toons/too-12/too1130.cur), auto !important;
-} */
+} 
 
-[class^="embedFull"] {
+ [class^="embedFull"] {
   background-color: transparent !important;
 }
 
-/* Main container need to make others transparent */
+ Main container need to make others transparent 
 .container_c48ade, .standardSidebarView__23e6b, .members_c8ffbb, .thin_d125d2, .scrollerBase_d125d2, .fade_d125d2, .container_c8ffbb, .membersWrap_c8ffbb, .hiddenMembers_c8ffbb{
   background-size: 100% 100%;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
-}
+} 
 
-.channelTextArea_f75fb0,
+ .channelTextArea_f75fb0,
 .title_f75fb0,
 .privateChannels__35e86,
 .subtitleContainer_f75fb0,
@@ -72,7 +75,7 @@
 .container__9293f, .themed__9293f{
   background-color: transparent !important;
 }
-/* Tool Tip */
+ Tool Tip 
 
 
 .buttonsInner__5126c {
@@ -86,7 +89,7 @@
   text-shadow: rgb(29, 37, 47, 0.761) 1px 0 10px;
 }
 
-/* CHAT BOX */
+ CHAT BOX 
 .themedBackground__74017,
 .button_e6e74f,
 .childWrapperNoHoverBg__6e9f8,
@@ -159,7 +162,7 @@
   -webkit-backdrop-filter: blur(5.5px);
   transition: 0.4s !important;
   box-shadow: inset 0px 0px 10px rgba(148, 246, 255, 0.2);
-}
+} 
 
 .themedBackground__74017:hover,
 .button_e6e74f:hover {
@@ -220,7 +223,7 @@
     0 1px 4px 1px rgba(17, 46, 231, 0.2), 0 1px 4px 1px rgba(0, 0, 0, 0.1) !important;
 }
 
-/* .attachButton__0923f */
+ .attachButton__0923f 
 .privateChannelRecipientsInviteButtonIcon__99e7c {
   background-color: transparent !important;
   padding: 0px 0px !important;
@@ -320,13 +323,13 @@
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
 }
 
-/* .container__37e49 {
+ .container__37e49 {
   background: rgba(180, 255, 248, 0.05) !important;
-} */
+} 
 
 .panels_c48ade{
-  /* margin-left: 73px; */
-  /* width: 77% !important; */
+   margin-left: 73px; 
+   width: 77% !important; 
   padding-bottom: 13px;
 }
 
@@ -348,11 +351,11 @@
   background-color: transparent !important;
 }
 
-.visual-refresh, .sidebarListRounded_c48ade{
-  border-top-left-radius: 0px !important; /*Get rid of that dumb top left corner rounded bit*/
-}
+ .visual-refresh, .sidebarListRounded_c48ade{
+  border-top-left-radius: 0px !important; Get rid of that dumb top left corner rounded bit
+} 
 
-.iconWrapper__9293f, .clickable__9293f{
+ .iconWrapper__9293f, .clickable__9293f{
   font-size: larger !important;
 }
 
@@ -369,14 +372,14 @@
   border: 1px solid rgba(148, 246, 255, 0.3);
   transition: 0.4s;
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
-}
+} 
 
-.layer__59d0d,
+ .layer__59d0d,
 .container_fc561d,
 .header_ab6641,
 .messages__1ccd1,
-/* inbox popup */
-.channelHeader__35a7e,
+ inbox popup 
+ .channelHeader__35a7e,
 .recentMentionsPopout__95796,
 .messageContainer__95796 {
   background-color: transparent !important;
@@ -387,22 +390,22 @@
   border: 1px solid rgba(148, 246, 255, 0.3);
   transition: 0.4s;
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
-}
+} 
 
-.menu_c1e9c4 {
-  /* background-color: transparent !important; */
-  /* background: rgba(148, 246, 255, 0.3) !important; */
+ .menu_c1e9c4 {
+  background-color: transparent !important;
+  background: rgba(148, 246, 255, 0.3) !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5.5px);
   border: 1px solid rgba(148, 246, 255, 0.3);
   transition: 0.4s;
   box-shadow: inset 0px 0px 15px rgba(148, 246, 255, 0.2);
-}
+} 
 
 
-/* typing indicator */
-.typing_b88801,
+ typing indicator 
+ .typing_b88801,
 .base_b88801,
 .inTextChannel_b88801 {
   background-color: transparent !important;
@@ -419,19 +422,19 @@
 .chatGradientBase__36d07 {
   background-color: transparent !important;
   background: rgba(180, 255, 248, 0) !important;
-}
+} 
 
-/*/////////////////////////////////*/
+/////////////////////////////////
 
-.editor-wrapper {
+ .editor-wrapper {
     background: rgba(180, 255, 248, 0.05) !important;
-}
+} 
 
-.monaco-editor .cursor {
+ .monaco-editor .cursor {
   border-left: 1px solid white !important;
 }
 
 .monaco-editor .selected-text {
   background-color: rgba(106, 151, 255, 0.5) !important;
   color: white !important;
-}
+}  */
