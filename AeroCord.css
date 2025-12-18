@@ -494,9 +494,25 @@
     color: black;                      
 }
 
+/* makes the avatar element buttons jump on hover, mic/mute, hp/defean, gear/stngs respectively */
+  ._37e49614b9f110a9-micButtonParent:hover {
+    transition: 0.2s;
+    transform: translateY(-3px);
+  }
+
+  ._37e49614b9f110a9-micButtonParent:hover {
+    transition: 0.2s;
+    transform: translateY(-3px);
+  }
+
+  ._67645e1530f1195d-button:hover {
+    transition: 0.2s;
+    transform: translateY(-3px);
+  }
+
 /* these are the buttons at the top right, pinned msgs, threads, etc */
-._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected {
-   display: flex;
+._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected, .c99c29809d200a61-clickable {
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
