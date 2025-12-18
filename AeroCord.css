@@ -486,12 +486,10 @@
 
 /* this is the avatar and mute/deafen/settings button element */
 ._5e434347c823b592-panels {
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);        
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 12px;                       
+    background-color: rgba(57, 38, 96, 0.3);
+    backdrop-filter: blur(5px);        
+    -webkit-backdrop-filter: blur(10px);                   
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: black;                      
 }
 
 /* makes the avatar element buttons jump on hover, mic/mute, hp/defean, gear/stngs respectively */
