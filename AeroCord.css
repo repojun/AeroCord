@@ -566,3 +566,8 @@
   background-color: transparent !important;
   background: none !important;
 }
+
+/* profile pictures in chat */
+.c19a557985eb7793-avatar {
+  border-radius: 0px;
+}
