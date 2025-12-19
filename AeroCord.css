@@ -728,3 +728,9 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* three dots menu on DM sidebar was impossible to read, so this makes it better*/
+#popout_1120 {
+  background-color: #4452d8 !important;
+  background: #4452d8 !important;
+}
