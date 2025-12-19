@@ -508,6 +508,29 @@
     transform: translateY(-3px);
   }
 
+/* mic/hp/settings button theming */
+._37e49614b9f110a9-micButtonParent, ._67645e1530f1195d-button{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transition: 0.2s;
+  text-shadow: 0 1px 1px #112ae7 !important;
+  background-color: #4452d8 !important;
+  border: 1px solid #4356ff !important;
+  transition: 0.4s;
+  background-image: radial-gradient(75% 50% at 50% 0%, #f4feff, transparent), radial-gradient(75% 35% at 50% 85%, #8d93fc, transparent) !important;
+  box-shadow: inset 0 -2px 4px 1px rgba(17, 46, 231, 0.6), inset 0 -4px 4px 1px #8d96fc, inset 0 0 2px 1px rgba(255, 255, 255, 0.2),
+    0 1px 4px 1px rgba(17, 46, 231, 0.2), 0 1px 4px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+._5eb9b3cc7c2b1ce8-lottieIcon, ._5eb9b3cc7c2b1ce8-lottieIconColors {
+  color: #000;
+}
+
 /* these are the buttons at the top right, pinned msgs, threads, etc */
 ._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected, .c99c29809d200a61-clickable {
   display: flex;
