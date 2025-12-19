@@ -526,10 +526,12 @@
   box-shadow: inset 0 -2px 4px 1px rgba(17, 46, 231, 0.6), inset 0 -4px 4px 1px #8d96fc, inset 0 0 2px 1px rgba(255, 255, 255, 0.2),
     0 1px 4px 1px rgba(17, 46, 231, 0.2), 0 1px 4px 1px rgba(0, 0, 0, 0.1) !important;
 }
-
-._5eb9b3cc7c2b1ce8-lottieIcon, ._5eb9b3cc7c2b1ce8-lottieIconColors {
+/* if you uncomment what's below, the gif, sticker,  and activies
+buttons on the message bar will turn black (although not the emojis button
+because it changes on hover */
+/* ._5eb9b3cc7c2b1ce8-lottieIcon, ._5eb9b3cc7c2b1ce8-lottieIconColors {
   color: #000;
-}
+} */
 
 /* these are the buttons at the top right, pinned msgs, threads, etc */
 ._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected, .c99c29809d200a61-clickable {
@@ -624,4 +626,31 @@
   text-shadow: 0 1px 1px #112ae7 !important;
   background-color: #4452d8 !important;
   border: 1px solid #4356ff !important;
+}
+
+/* message box */
+.f75fb00fb7356cbe-channelBottomBarArea,
+.f75fb00fb7356cbe-channelTextArea,
+._740174f3d6a2c8fe-channelTextArea,
+._740174f3d6a2c8fe-scrollableContainer, 
+._740174f3d6a2c8fe-themedBackground {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* invite to server modal (more dark aero for some reason, seems to be an Electron quirk)*/
+._8a031a135bfcb9ba-container,
+._8a031a135bfcb9ba-size-md, 
+._8a031a135bfcb9ba-padding-size-sm,
+._8a031a135bfcb9ba-section,
+._8a031a135bfcb9ba-header,
+._8a031a135bfcb9ba-bodyList,
+.d125d22cdfd32cfe-auto,
+.d125d22cdfd32cfe-scrollerBase,
+._8a031a135bfcb9ba-footer,
+._8a031a135bfcb9ba-section {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(20px);
 }
