@@ -563,7 +563,6 @@ because it changes on hover */
   background: none !important;
 }
 
-
 /* the messages scroller */
 .f75fb00fb7356cbe-chatContent,
 .f75fb00fb7356cbe-content,
@@ -590,6 +589,18 @@ because it changes on hover */
 /* profile pictures in chat */
 .c19a557985eb7793-avatar {
   border-radius: 0px;
+}
+.c19a557985eb7793-avatar {
+  transition:
+transform 220ms cubic-bezier(.2,.8,.2,1),
+    box-shadow 220ms cubic-bezier(.2,.8,.2,1),
+    backdrop-filter 220ms ease;
+}
+.c19a557985eb7793-avatar:hover {
+  transform: translateY(-2px);
+  box-shadow:
+  0 8px 24px rgba(0,0,0,0.35),
+  inset 0 0 0 1px rgba(255,255,255,0.08);
 }
 
 /* message context menu hover */
@@ -682,4 +693,22 @@ because it changes on hover */
 .f8fa068db52f043f-actionButton {
   background-color: transparent !important;
   background: none !important;
+}
+
+.c0bea05627c5dc35-outer:hover,
+.user-profile-popout:hover,
+.ce832809562bf737-themeContainer {
+  transition:
+    transform 220ms cubic-bezier(.2,.8,.2,1),
+    box-shadow 220ms cubic-bezier(.2,.8,.2,1),
+    backdrop-filter 220ms ease;
+}
+
+.c0bea05627c5dc35-outer:hover,
+.user-profile-popout:hover,
+.ce832809562bf737-themeContainer:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.35),
+    inset 0 0 0 1px rgba(255,255,255,0.08);
 }
