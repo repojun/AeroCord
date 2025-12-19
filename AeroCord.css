@@ -599,8 +599,8 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 .c19a557985eb7793-avatar:hover {
   transform: translateY(-2px);
   box-shadow:
-  0 8px 24px rgba(0,0,0,0.35),
-  inset 0 0 0 1px rgba(255,255,255,0.08);
+  0 8px 24px rgba(188, 133, 255, 0.717),
+  inset 0 0 0 1px rgba(188, 133, 255, 0.717);
 }
 
 /* message context menu hover */
