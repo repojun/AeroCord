@@ -466,10 +466,7 @@
 ._960e4207cea8323e-baseLayer, 
 ._5e434347c823b592-container, 
 ._5e434347c823b592-base, 
-._5e434347c823b592-content, 
-._5e434347c823b592-sidebar,
-._5e434347c823b592-sidebar,
-.ef3116c2da186559-wrapper{
+._5e434347c823b592-content {
   background-size: 100% 100%;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
@@ -653,4 +650,30 @@ because it changes on hover */
   background-color: transparent !important;
   background: none !important;
   backdrop-filter: blur(20px);
+}
+
+/* DMs screen */
+._133bf5eea8e33a34-container,
+._133bf5eea8e33a34-tabBody,
+.e6b7699ce8339e1c-searchBar,
+._99e7cad8d4c55236-scroller,
+.d125d22cdfd32cfe-thin, 
+.d125d22cdfd32cfe-scrollerBase, 
+.d125d22cdfd32cfe-fade,
+.e6b7699ce8339e1c-privateChannels {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* settings right panel */
+.e9e3ed8b8badfe05-content,
+.e9e3ed8b8badfe05-mobileNavigationOpen {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* settings title panel */
+.e9e3ed8b8badfe05-contentHeader {
+  background-color: transparent !important;
+  background: none !important;
 }
