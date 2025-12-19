@@ -604,3 +604,10 @@
   background: none !important;
   backdrop-filter: blur(5px);  
 }
+
+/* extended message context menu (three dots menu) */
+._59d0d7075b521375-layer, .c1e9c47c23f12ca3-menu, .c1e9c47c23f12ca3-flexible {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(20px);  
+}
