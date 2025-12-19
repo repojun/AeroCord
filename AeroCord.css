@@ -611,3 +611,17 @@
   background: none !important;
   backdrop-filter: blur(20px);  
 }
+
+/* profile menu */
+.c0bea05627c5dc35-outer,
+.user-profile-popout,
+.ce832809562bf737-themeContainer {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+.c0bea05627c5dc35-overlay, .ce832809562bf737-menuOverlay {
+  text-shadow: 0 1px 1px #112ae7 !important;
+  background-color: #4452d8 !important;
+  border: 1px solid #4356ff !important;
+}
