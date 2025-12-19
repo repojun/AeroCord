@@ -592,3 +592,15 @@
 .c19a557985eb7793-avatar {
   border-radius: 0px;
 }
+
+/* message context menu hover */
+._5126c0cd07f243a0-buttons,
+._040f07d21e1fb0d6-container,
+._040f07d21e1fb0d6-isHeader,
+._5126c0cd07f243a0-buttonsInner,
+.f84418acfdbdfe54-popover,
+.f7ecaca5c80dbf3a-wrapper {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(5px);  
+}
