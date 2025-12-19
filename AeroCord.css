@@ -712,3 +712,19 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
     0 8px 24px rgba(0,0,0,0.35),
     inset 0 0 0 1px rgba(255,255,255,0.08);
 }
+
+/* server boosts page */
+._5e434347c823b592-page,
+._8946359d8adb1488-container,
+._8946359d8adb1488-contentContainer,
+._5573a546299c96e8-parentContainer,
+._5573a546299c96e8-container,
+._5573a546299c96e8-active,
+._823e17af53f649ad-card,
+._8946359d8adb1488-sidebarContainer,
+.a623833d8a73e9ad-container,
+.a623833d8a73e9ad-purple, 
+._6c25357d6a3f0021-container {
+  background-color: transparent !important;
+  background: none !important;
+}
