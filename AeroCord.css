@@ -734,3 +734,23 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: #4452d8 !important;
   background: #4452d8 !important;
 }
+
+/* inbox button popup */
+._59d0d7075b521375-layer,
+.fc561d3c125f6a2f-container,
+._957962c2bd49881b-recentMentionsPopout,
+.ab66419eae73260f-header,
+.e8b59c4b335dd2fc-header,
+.e8b59c4b335dd2fc-titleContainer,
+._957962c2bd49881b-container,
+._35a7ecf3aba351b2-channelHeader,
+._957962c2bd49881b-messageContainer {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* friend profile popup */
+._9c3bea41fd465666-profile {
+  background-color: transparent !important;
+  background: none !important;
+}
