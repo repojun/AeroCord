@@ -694,7 +694,6 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
-
 .c0bea05627c5dc35-outer:hover,
 .user-profile-popout:hover,
 .ce832809562bf737-themeContainer {
@@ -703,7 +702,6 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
     box-shadow 220ms cubic-bezier(.2,.8,.2,1),
     backdrop-filter 220ms ease;
 }
-
 .c0bea05627c5dc35-outer:hover,
 .user-profile-popout:hover,
 .ce832809562bf737-themeContainer:hover {
@@ -756,3 +754,14 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 }
 
 /* I cannot get this damned black spot on the left of the msg box to go away */
+
+/* activity entries on the right in a server view */
+._0f2e83213c878a13-container, 
+._0f2e83213c878a13-openOnHover,
+._0f2e83213c878a13-usesCardRows {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  text-shadow: 0 1px 1px #112ae7 !important;
+  border: 1px solid #4356ff !important;
+}
