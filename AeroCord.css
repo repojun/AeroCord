@@ -754,3 +754,5 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* I cannot get this damned black spot on the left of the msg box to go away */
