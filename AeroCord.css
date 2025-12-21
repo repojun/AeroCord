@@ -805,3 +805,19 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* status bubble on profile modal */
+/* this one is weird, I had to manually set border-radius */
+/* also, removing ANY of these elements listed will cause it to not work */
+/* also also, the bubbles traveling to your profile picture will disappear with */
+/* .ab86098b36386ff7-outer enabled, but without it, the blur doesn't work */
+.ab86098b36386ff7-container, 
+.ab86098b36386ff7-editable,
+.ab86098b36386ff7-outer,
+.ab86098b36386ff7-inner, 
+.ab86098b36386ff7-clickable {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  border-radius: 100px;
+}
