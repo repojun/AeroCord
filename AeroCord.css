@@ -842,3 +842,18 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* active now sidebar */
+/* one thing I noticed about this element is that they kept */
+/* the "nowPlaying" part of the class name from the old UI design */
+/* (all the commented out code works for that design) */
+._133bf5eea8e33a34-nowPlayingColumn,
+._7d20cf18f8a2784c-container,
+._7e549558f336cddb-itemCard, 
+._00943886e1cf89d1-wrapper, 
+.bf1984a18b3ec6f0-outer, 
+.bf1984a18b3ec6f0-padded, 
+.bf1984a18b3ec6f0-interactive {
+  background-color: transparent !important;
+  background: none !important;
+}
