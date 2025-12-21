@@ -863,3 +863,9 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* what pops up when you hover over a server icon on the left */
+._4e35b986167c457d-tooltip {
+  background-color: transparent !important;
+  background: none !important;
+}
