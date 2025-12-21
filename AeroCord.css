@@ -777,3 +777,31 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   text-shadow: 0 1px 1px #112ae7 !important;
   border: 1px solid #4356ff !important;
 }
+
+/* threads picker modal */
+.d9c8822889d1d4a1-header,
+.c441f0072c3e8827-list,
+._1b24f0fdfb13e41c-container,
+._59d0d7075b521375-layer,
+.d98031d9a3e08b09-browser,
+.d9c8822889d1d4a1-container {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* pinned messages modal */
+._59d0d7075b521375-layer,
+.e8b59c4b335dd2fc-messagesPopoutWrap {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* discover sidebar */
+._5e434347c823b592-sidebarList,
+._5e434347c823b592-sidebarListRounded,
+._551b0894962ff66f-container {
+  background-color: transparent !important;
+  background: none !important;
+}
