@@ -20,6 +20,8 @@ A Frutiger Aero Discord Theme.
 
 ## ⚠️ Turn on hardware acceleration if you experience any performance issues.
 
+## You must be in dark mode for this theme to look proper
+
 ## Please document what classes you are using if you make a change, use the current comments as boilerplate
 
 ## Screenshots
