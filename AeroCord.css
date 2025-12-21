@@ -1,8 +1,8 @@
-/* *
+/**
  * @name AeroCord
  * @author Repojun
  * @description glossy surfaces, bright gradients, glassy buttons, and tech-inspired typography.
- * @version 0.0.4
+ * @version 0.1
 */
 
 /*
@@ -466,10 +466,7 @@
 ._960e4207cea8323e-baseLayer, 
 ._5e434347c823b592-container, 
 ._5e434347c823b592-base, 
-._5e434347c823b592-content, 
-._5e434347c823b592-sidebar,
-._5e434347c823b592-sidebar,
-.ef3116c2da186559-wrapper{
+._5e434347c823b592-content {
   background-size: 100% 100%;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Left.png?raw=true") !important;
   background-image: url("https://github.com/Twisty10000/AeroCord/blob/main/Bg%20Images/Right.png?raw=true") !important;
@@ -508,6 +505,31 @@
     transform: translateY(-3px);
   }
 
+/* mic/hp/settings button theming */
+._37e49614b9f110a9-micButtonParent, ._67645e1530f1195d-button{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  transition: 0.2s;
+  text-shadow: 0 1px 1px #112ae7 !important;
+  background-color: #4452d8 !important;
+  border: 1px solid #4356ff !important;
+  transition: 0.4s;
+  background-image: radial-gradient(75% 50% at 50% 0%, #f4feff, transparent), radial-gradient(75% 35% at 50% 85%, #8d93fc, transparent) !important;
+  box-shadow: inset 0 -2px 4px 1px rgba(17, 46, 231, 0.6), inset 0 -4px 4px 1px #8d96fc, inset 0 0 2px 1px rgba(255, 255, 255, 0.2),
+    0 1px 4px 1px rgba(17, 46, 231, 0.2), 0 1px 4px 1px rgba(0, 0, 0, 0.1) !important;
+}
+/* if you uncomment what's below, the gif, sticker,  and activies
+buttons on the message bar will turn black (although not the emojis button
+because it changes on hover */
+/* ._5eb9b3cc7c2b1ce8-lottieIcon, ._5eb9b3cc7c2b1ce8-lottieIconColors {
+  color: #000;
+} */
+
 /* these are the buttons at the top right, pinned msgs, threads, etc */
 ._9293f6b2fc12398a-iconWrapper, ._9293f6b2fc12398a-clickable, ._9293f6b2fc12398a-selected, .c99c29809d200a61-clickable {
   display: flex;
@@ -541,7 +563,6 @@
   background: none !important;
 }
 
-
 /* the messages scroller */
 .f75fb00fb7356cbe-chatContent,
 .f75fb00fb7356cbe-content,
@@ -568,4 +589,288 @@
 /* profile pictures in chat */
 .c19a557985eb7793-avatar {
   border-radius: 0px;
+}
+.c19a557985eb7793-avatar {
+  transition:
+transform 220ms cubic-bezier(.2,.8,.2,1),
+    box-shadow 220ms cubic-bezier(.2,.8,.2,1),
+    backdrop-filter 220ms ease;
+}
+.c19a557985eb7793-avatar:hover {
+  transform: translateY(-2px);
+  box-shadow:
+  0 8px 24px rgba(188, 133, 255, 0.717),
+  inset 0 0 0 1px rgba(188, 133, 255, 0.717);
+}
+
+/* message context menu hover */
+._5126c0cd07f243a0-buttons,
+._040f07d21e1fb0d6-container,
+._040f07d21e1fb0d6-isHeader,
+._5126c0cd07f243a0-buttonsInner,
+.f84418acfdbdfe54-popover,
+.f7ecaca5c80dbf3a-wrapper {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(5px);  
+}
+
+/* extended message context menu (three dots menu) */
+._59d0d7075b521375-layer, .c1e9c47c23f12ca3-menu, .c1e9c47c23f12ca3-flexible {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(20px);  
+}
+
+/* profile menu */
+.c0bea05627c5dc35-outer,
+.user-profile-popout,
+.ce832809562bf737-themeContainer {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+.c0bea05627c5dc35-overlay, .ce832809562bf737-menuOverlay {
+  text-shadow: 0 1px 1px #112ae7 !important;
+  background-color: #4452d8 !important;
+  border: 1px solid #4356ff !important;
+}
+
+/* message box */
+.f75fb00fb7356cbe-channelBottomBarArea,
+.f75fb00fb7356cbe-channelTextArea,
+._740174f3d6a2c8fe-channelTextArea,
+._740174f3d6a2c8fe-scrollableContainer, 
+._740174f3d6a2c8fe-themedBackground {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* invite to server modal (more dark aero for some reason, seems to be an Electron quirk)*/
+._8a031a135bfcb9ba-container,
+._8a031a135bfcb9ba-size-md, 
+._8a031a135bfcb9ba-padding-size-sm,
+._8a031a135bfcb9ba-section,
+._8a031a135bfcb9ba-header,
+._8a031a135bfcb9ba-bodyList,
+.d125d22cdfd32cfe-auto,
+.d125d22cdfd32cfe-scrollerBase,
+._8a031a135bfcb9ba-footer,
+._8a031a135bfcb9ba-section {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(20px);
+}
+
+/* DMs screen */
+._133bf5eea8e33a34-container,
+._133bf5eea8e33a34-tabBody,
+.e6b7699ce8339e1c-searchBar,
+._99e7cad8d4c55236-scroller,
+.d125d22cdfd32cfe-thin, 
+.d125d22cdfd32cfe-scrollerBase, 
+.d125d22cdfd32cfe-fade,
+.e6b7699ce8339e1c-privateChannels {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* settings right panel */
+.e9e3ed8b8badfe05-content,
+.e9e3ed8b8badfe05-mobileNavigationOpen {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* settings title panel */
+.e9e3ed8b8badfe05-contentHeader {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* message and more buttons on DMs screen */
+.f8fa068db52f043f-actionButton {
+  background-color: transparent !important;
+  background: none !important;
+}
+.c0bea05627c5dc35-outer:hover,
+.user-profile-popout:hover,
+.ce832809562bf737-themeContainer {
+  transition:
+    transform 220ms cubic-bezier(.2,.8,.2,1),
+    box-shadow 220ms cubic-bezier(.2,.8,.2,1),
+    backdrop-filter 220ms ease;
+}
+.c0bea05627c5dc35-outer:hover,
+.user-profile-popout:hover,
+.ce832809562bf737-themeContainer:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.35),
+    inset 0 0 0 1px rgba(255,255,255,0.08);
+}
+
+/* server boosts page */
+._5e434347c823b592-page,
+._8946359d8adb1488-container,
+._8946359d8adb1488-contentContainer,
+._5573a546299c96e8-parentContainer,
+._5573a546299c96e8-container,
+._5573a546299c96e8-active,
+._823e17af53f649ad-card,
+._8946359d8adb1488-sidebarContainer,
+.a623833d8a73e9ad-container,
+.a623833d8a73e9ad-purple, 
+._6c25357d6a3f0021-container {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* three dots menu on DM sidebar was impossible to read, so this makes it better*/
+#popout_1120 {
+  background-color: #4452d8 !important;
+  background: #4452d8 !important;
+}
+
+/* inbox button popup */
+._59d0d7075b521375-layer,
+.fc561d3c125f6a2f-container,
+._957962c2bd49881b-recentMentionsPopout,
+.ab66419eae73260f-header,
+.e8b59c4b335dd2fc-header,
+.e8b59c4b335dd2fc-titleContainer,
+._957962c2bd49881b-container,
+._35a7ecf3aba351b2-channelHeader,
+._957962c2bd49881b-messageContainer {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* friend profile popup */
+._9c3bea41fd465666-profile {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* I cannot get this damned black spot on the left of the msg box to go away */
+
+/* activity entries on the right in a server view */
+._0f2e83213c878a13-container, 
+._0f2e83213c878a13-openOnHover,
+._0f2e83213c878a13-usesCardRows {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  text-shadow: 0 1px 1px #112ae7 !important;
+  border: 1px solid #4356ff !important;
+}
+
+/* gif picker modal */
+/* I don't know why the blur shoots off so far to the left like that */
+._084343c4f11eaaab-contentWrapper,
+.fed6d32841cc2da2-container,
+.fed6d32841cc2da2-header {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  text-shadow: 0 1px 1px #112ae7 !important;
+  border: 1px solid #4356ff !important;
+}
+
+/* threads picker modal */
+.d9c8822889d1d4a1-header,
+.c441f0072c3e8827-list,
+._1b24f0fdfb13e41c-container,
+._59d0d7075b521375-layer,
+.d98031d9a3e08b09-browser,
+.d9c8822889d1d4a1-container {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* pinned messages modal */
+._59d0d7075b521375-layer,
+.e8b59c4b335dd2fc-messagesPopoutWrap {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* discover sidebar */
+._5e434347c823b592-sidebarList,
+._5e434347c823b592-sidebarListRounded,
+._551b0894962ff66f-container {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* status bubble on profile modal */
+/* this one is weird, I had to manually set border-radius */
+/* also, removing ANY of these elements listed will cause it to not work */
+/* also also, the bubbles traveling to your profile picture will disappear with */
+/* .ab86098b36386ff7-outer enabled, but without it, the blur doesn't work */
+.ab86098b36386ff7-container, 
+.ab86098b36386ff7-editable,
+.ab86098b36386ff7-outer,
+.ab86098b36386ff7-inner, 
+.ab86098b36386ff7-clickable {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  border-radius: 100px;
+}
+
+/* modal that appears when you click on your Orbs balance in the Quests tab */
+/* no idea why this is blurred without blur being manually set */
+/* but you know what, I'm here for it */
+._44ee9ab6d1ca72b4-cardContainer, 
+._44ee9ab6d1ca72b4-alignRight, 
+._44ee9ab6d1ca72b4-visible,
+.b4f99ff7fb9ad184-container, 
+._1ab14d14e9559e7e-baseCardOutline {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* Orbs exclusives tab of Shop page */
+/* because the background is a looping gif, most of it isn't themable */
+._5e434347c823b592-page,
+._6db1d32c47b6ad72-shop,
+._8067953d83f4b8a8-headerBar {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* active now sidebar */
+/* one thing I noticed about this element is that they kept */
+/* the "nowPlaying" part of the class name from the old UI design */
+/* (all the commented out code works for that design) */
+._133bf5eea8e33a34-nowPlayingColumn,
+._7d20cf18f8a2784c-container,
+._7e549558f336cddb-itemCard, 
+._00943886e1cf89d1-wrapper, 
+.bf1984a18b3ec6f0-outer, 
+.bf1984a18b3ec6f0-padded, 
+.bf1984a18b3ec6f0-interactive {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* games i like section of friend profile */
+._62dd31d5e86f2841-container {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* what pops up when you hover over a server icon on the left */
+._4e35b986167c457d-tooltip {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* the little arrow pointing to the server on the above popup */
+._4e35b986167c457d-caretIcon {
+  display: none;
 }
