@@ -821,3 +821,15 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   backdrop-filter: blur(200px);
   border-radius: 100px;
 }
+
+/* modal that appears when you click on your Orbs balance in the Quests tab */
+/* no idea why this is blurred without blur being manually set */
+/* but you know what, I'm here for it */
+._44ee9ab6d1ca72b4-cardContainer, 
+._44ee9ab6d1ca72b4-alignRight, 
+._44ee9ab6d1ca72b4-visible,
+.b4f99ff7fb9ad184-container, 
+._1ab14d14e9559e7e-baseCardOutline {
+  background-color: transparent !important;
+  background: none !important;
+}
