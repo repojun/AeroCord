@@ -833,3 +833,12 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* Orbs exclusives tab of Shop page */
+/* because the background is a looping gif, most of it isn't themable */
+._5e434347c823b592-page,
+._6db1d32c47b6ad72-shop,
+._8067953d83f4b8a8-headerBar {
+  background-color: transparent !important;
+  background: none !important;
+}
