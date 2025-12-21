@@ -765,3 +765,15 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   text-shadow: 0 1px 1px #112ae7 !important;
   border: 1px solid #4356ff !important;
 }
+
+/* gif picker modal */
+/* I don't know why the blur shoots off so far to the left like that */
+._084343c4f11eaaab-contentWrapper,
+.fed6d32841cc2da2-container,
+.fed6d32841cc2da2-header {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  text-shadow: 0 1px 1px #112ae7 !important;
+  border: 1px solid #4356ff !important;
+}
