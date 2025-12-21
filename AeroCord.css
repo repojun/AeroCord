@@ -869,3 +869,8 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important;
 }
+
+/* the little arrow pointing to the server on the above popup */
+._4e35b986167c457d-caretIcon {
+  display: none;
+}
