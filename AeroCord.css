@@ -994,3 +994,35 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background-color: transparent !important;
   background: none !important; 
 }
+
+/* perks list cards in nitro tab of settings */
+.b62c4e4ee0e62730-perkCard {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* apps and commands modal */
+._31a96fe07c7d9258-positionLayer, 
+._59d0d7075b521375-layer,
+._31a96fe07c7d9258-positionContainer,
+._9c62c6ed231468c4-drawerSizingWrapper,
+._9c62c6ed231468c4-contentWrapper,
+.cb32c78a53f54371-appDetailsContainer,
+.cb32c78a53f54371-container, 
+.cb32c78a53f54371-containerBorderRadius,
+._958562d63bb1e99d-overviewContainerWithVideo {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* slash commands modal */
+._13533e3c5791980f-autocomplete, 
+.d1405bf11dcfb07a-outerWrapper,
+.d1405bf11dcfb07a-rail,
+.b1e4f3fb96801b99-wrapper,
+._13533e3c5791980f-autocompleteInner,
+.d1405bf11dcfb07a-wrapper {
+  background-color: #34428e !important;
+  background: #34428e !important;
+  color: #34428e;
+}
