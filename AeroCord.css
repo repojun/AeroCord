@@ -766,6 +766,21 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   border: 1px solid #4356ff !important;
 }
 
+/* the popup that comes up when you hover on the activity entries */
+._59d0d7075b521375-layer,
+.faf9c0f0be1b8685-animatorLeft, 
+.faf9c0f0be1b8685-translate, 
+.faf9c0f0be1b8685-didRender,
+.af3b89684c536957-popout,
+.af3b89684c536957-popoutContentWrapper,
+.af3b89684c536957-interactionsContainer,
+.af3b89684c536957-hero {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  text-shadow: 0 1px 1px #112ae7 !important;
+}
+
 /* gif picker modal */
 /* I don't know why the blur shoots off so far to the left like that */
 ._084343c4f11eaaab-contentWrapper,
