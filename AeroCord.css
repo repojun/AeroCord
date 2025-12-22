@@ -481,6 +481,13 @@
   background: none !important;
 }
 
+/* this will make the server icons jump up when hovered on */
+/* .e5445cbd3ad226f2-blobContainer:hover, */
+.cc5dd25190031396-wrapper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(188, 133, 255, 0.5);
+}
+
 /* this is the avatar and mute/deafen/settings button element */
 ._5e434347c823b592-panels {
     background-color: rgba(57, 38, 96, 0.3);
@@ -561,6 +568,11 @@ because it changes on hover */
 .f75fb00fb7356cbe-chat {
   background-color: transparent !important;
   background: none !important;
+}
+
+/* this gets rid of that tiny vertical black bar to the left of the buttons on the bar mentioned above */
+._9293f6b2fc12398a-children::after {
+  display: none !important;
 }
 
 /* the messages scroller */
@@ -753,7 +765,13 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background: none !important;
 }
 
-/* I cannot get this damned black spot on the left of the msg box to go away */
+/* i got the damned black spot/black bar to go away */
+/* this is how */
+/* does not interfere with typing dots */
+._36d072eab2b2e737-chatGradient, 
+._36d072eab2b2e737-chatGradientBase {
+  display: none !important;
+}
 
 /* activity entries on the right in a server view */
 ._0f2e83213c878a13-container, 
@@ -764,6 +782,21 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   backdrop-filter: blur(200px);
   text-shadow: 0 1px 1px #112ae7 !important;
   border: 1px solid #4356ff !important;
+}
+
+/* the popup that comes up when you hover on the activity entries */
+._59d0d7075b521375-layer,
+.faf9c0f0be1b8685-animatorLeft, 
+.faf9c0f0be1b8685-translate, 
+.faf9c0f0be1b8685-didRender,
+.af3b89684c536957-popout,
+.af3b89684c536957-popoutContentWrapper,
+.af3b89684c536957-interactionsContainer,
+.af3b89684c536957-hero {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+  text-shadow: 0 1px 1px #112ae7 !important;
 }
 
 /* gif picker modal */
@@ -873,4 +906,123 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 /* the little arrow pointing to the server on the above popup */
 ._4e35b986167c457d-caretIcon {
   display: none;
+}
+
+/* background on a voice call */
+._5e434347c823b592-page,
+.f75fb00fb7356cbe-chat,
+.cb9592ad77576717-wrapper,
+.cb9592ad77576717-noChat, 
+.cb9592ad77576717-video,
+.cb9592ad77576717-callContainer,
+.bfe55a0aaaf62375-root, 
+.bfe55a0aaaf62375-idle {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* voice call video controls */
+.bfe55a0aaaf62375-videoControls,
+.bfe55a0aaaf62375-gradientTop, 
+.bfe55a0aaaf62375-gradientContainer,
+.bfe55a0aaaf62375-gradientBottom,
+.bfe55a0aaaf62375-gradientContainer {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* voice call buttons */
+._1405b3b8e8eb5fd0-buttonSection {
+  background-color: #4356ff !important;
+  background: #4356ff !important;
+  color: #4356ff;
+}
+
+/* voice call chat window */
+._36d072eab2b2e737-scrollerInner,
+._01ae244280823725-chatTarget
+._01ae244280823725-container, 
+._01ae244280823725-floating {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* vencord translate msg plugin modal */
+._49fc18ba07c5025f-focusLock,
+._49fc18ba07c5025f-root
+._49fc18ba07c5025f-small,
+._49fc18ba07c5025f-fullscreenOnMobile, 
+._49fc18ba07c5025f-rootWithShadow {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* stuff from the emoji picker modal that didn't get picked up by other classes*/
+.aeaaeb2a573807f0-inspector, 
+.c0e32c5cffed3d9f-inspector,
+._4e6cebf8beed1ad8-wrapper, 
+.c0e32c5cffed3d9f-categoryList {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* the normal emojis button */
+.b9ee0c229bc0b6bb-unicodeShortcut {
+  backdrop-filter: blur(200px);
+}
+
+/* the star button on the emoji picker modal */
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory, 
+.b9ee0c229bc0b6bb-categoryItem,
+.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* the headings (favorites, recent, etc) */
+._14245bb948377a25-wrapper, 
+.c656aca9a3db31a9-header {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* search bar on sticker picker modal */
+._8ef02eea17068b73-header {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* perks list cards in nitro tab of settings */
+.b62c4e4ee0e62730-perkCard {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* apps and commands modal */
+._31a96fe07c7d9258-positionLayer, 
+._59d0d7075b521375-layer,
+._31a96fe07c7d9258-positionContainer,
+._9c62c6ed231468c4-drawerSizingWrapper,
+._9c62c6ed231468c4-contentWrapper,
+.cb32c78a53f54371-appDetailsContainer,
+.cb32c78a53f54371-container, 
+.cb32c78a53f54371-containerBorderRadius,
+._958562d63bb1e99d-overviewContainerWithVideo {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* slash commands modal */
+._13533e3c5791980f-autocomplete, 
+.d1405bf11dcfb07a-outerWrapper,
+.d1405bf11dcfb07a-rail,
+.b1e4f3fb96801b99-wrapper,
+._13533e3c5791980f-autocompleteInner,
+.d1405bf11dcfb07a-wrapper {
+  background-color: #34428e !important;
+  background: #34428e !important;
+  color: #34428e;
 }
