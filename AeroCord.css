@@ -570,6 +570,11 @@ because it changes on hover */
   background: none !important;
 }
 
+/* this gets rid of that tiny vertical black bar to the left of the buttons on the bar mentioned above */
+._9293f6b2fc12398a-children::after {
+  display: none !important;
+}
+
 /* the messages scroller */
 .f75fb00fb7356cbe-chatContent,
 .f75fb00fb7356cbe-content,
