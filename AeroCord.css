@@ -942,3 +942,50 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background: none !important;
   backdrop-filter: blur(200px);
 }
+
+/* vencord translate msg plugin modal */
+._49fc18ba07c5025f-focusLock,
+._49fc18ba07c5025f-root
+._49fc18ba07c5025f-small,
+._49fc18ba07c5025f-fullscreenOnMobile, 
+._49fc18ba07c5025f-rootWithShadow {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* stuff from the emoji picker modal that didn't get picked up by other classes*/
+.aeaaeb2a573807f0-inspector, 
+.c0e32c5cffed3d9f-inspector,
+._4e6cebf8beed1ad8-wrapper, 
+.c0e32c5cffed3d9f-categoryList {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
+
+/* the normal emojis button */
+.b9ee0c229bc0b6bb-unicodeShortcut {
+  backdrop-filter: blur(200px);
+}
+
+/* the star button on the emoji picker modal */
+.b9ee0c229bc0b6bb-categoryItemDefaultCategory, 
+.b9ee0c229bc0b6bb-categoryItem,
+.b9ee0c229bc0b6bb-categoryItemDefaultCategorySelected {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* the headings (favorites, recent, etc) */
+._14245bb948377a25-wrapper, 
+.c656aca9a3db31a9-header {
+  background-color: transparent !important;
+  background: none !important; 
+}
+
+/* search bar on sticker picker modal */
+._8ef02eea17068b73-header {
+  background-color: transparent !important;
+  background: none !important; 
+}
