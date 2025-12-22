@@ -481,6 +481,13 @@
   background: none !important;
 }
 
+/* this will make the server icons jump up when hovered on */
+/* .e5445cbd3ad226f2-blobContainer:hover, */
+.cc5dd25190031396-wrapper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(188, 133, 255, 0.5);
+}
+
 /* this is the avatar and mute/deafen/settings button element */
 ._5e434347c823b592-panels {
     background-color: rgba(57, 38, 96, 0.3);
@@ -753,7 +760,13 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   background: none !important;
 }
 
-/* I cannot get this damned black spot on the left of the msg box to go away */
+/* i got the damned black spot/black bar to go away */
+/* this is how */
+/* does not interfere with typing dots */
+._36d072eab2b2e737-chatGradient, 
+._36d072eab2b2e737-chatGradientBase {
+  display: none !important;
+}
 
 /* activity entries on the right in a server view */
 ._0f2e83213c878a13-container, 
@@ -889,3 +902,4 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 ._4e35b986167c457d-caretIcon {
   display: none;
 }
+
