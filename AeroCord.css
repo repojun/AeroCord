@@ -903,3 +903,42 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
   display: none;
 }
 
+/* background on a voice call */
+._5e434347c823b592-page,
+.f75fb00fb7356cbe-chat,
+.cb9592ad77576717-wrapper,
+.cb9592ad77576717-noChat, 
+.cb9592ad77576717-video,
+.cb9592ad77576717-callContainer,
+.bfe55a0aaaf62375-root, 
+.bfe55a0aaaf62375-idle {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* voice call video controls */
+.bfe55a0aaaf62375-videoControls,
+.bfe55a0aaaf62375-gradientTop, 
+.bfe55a0aaaf62375-gradientContainer,
+.bfe55a0aaaf62375-gradientBottom,
+.bfe55a0aaaf62375-gradientContainer {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* voice call buttons */
+._1405b3b8e8eb5fd0-buttonSection {
+  background-color: #4356ff !important;
+  background: #4356ff !important;
+  color: #4356ff;
+}
+
+/* voice call chat window */
+._36d072eab2b2e737-scrollerInner,
+._01ae244280823725-chatTarget
+._01ae244280823725-container, 
+._01ae244280823725-floating {
+  background-color: transparent !important;
+  background: none !important;
+  backdrop-filter: blur(200px);
+}
