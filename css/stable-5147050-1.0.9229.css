@@ -24,7 +24,6 @@
 }
 
  /* Main container need to make others transparent and themed (I think, I don't know, this is stolen from the broken stuff - Diode-exe) */
- /* applies to stable 488579 (28327b1) */
 .appMount__51fd7,
 .bar_c38106,
 .systemBar_c38106,
@@ -41,7 +40,6 @@
 
 
 /* this is the servers list on the left */
-/* applies to stable 488579 (28327b1) */
 .guilds__5e434 {
   background-color: transparent !important;
   background: none !important;
@@ -49,7 +47,6 @@
 
 /* this will make the server icons jump up when hovered on */
 /* .blobContainer_e5445c:hover, */
-/* applies to stable 488579 (28327b1) */
 .blobContainer_e5445c:hover,
 .wrapper_cc5dd2:hover {
   transform: translateY(-2px);
@@ -57,7 +54,6 @@
 }
 
 /* this is the avatar and mute/deafen/settings button element */
-/* applies to stable 488579 (28327b1) */
 .panels__5e434 {
     background-color: rgba(57, 38, 96, 0.3);
     backdrop-filter: blur(5px);        
@@ -66,7 +62,6 @@
 }
 
 /* makes the avatar element buttons jump on hover, mic/mute, hp/defean, gear/stngs respectively */
-/* applies to stable 488579 (28327b1) */
   .micButtonParent__37e49:hover {
     transition: 0.2s;
     transform: translateY(-3px);
@@ -83,7 +78,7 @@
   }
 
 /* mic/hp/settings button theming */
-/* applies to stable 488579 (28327b1) */
+
 .micButtonParent__37e49, .button__67645{
  display: flex;
   justify-content: center;
@@ -109,7 +104,7 @@ because it changes on hover */
 } */
 
 /* these are the buttons at the top right, pinned msgs, threads, etc */
-/* applies to stable 488579 (28327b1) */
+
 .iconWrapper__9293f {
   display: flex;
   justify-content: center;
@@ -130,7 +125,7 @@ because it changes on hover */
 }
 
 /* channel name bar, with search and threads, pinned msgs buttons */
-/* applies to stable 488579 (28327b1) */
+
 .chat_f75fb0,
 .themed__9293f {
   background-color: transparent !important;
@@ -138,20 +133,20 @@ because it changes on hover */
 }
 
 /* this gets rid of that tiny vertical black bar to the left of the buttons on the bar mentioned above */
-/* applies to stable 488579 (28327b1) */
+
 .children__9293f::after {
   display: none !important;
 }
 
 /* the messages scroller */
-/* applies to stable 488579 (28327b1) */
+
 .chatContent_f75fb0 {
   background-color: transparent !important;
   background: none !important;
 }
 
 /* members list on right side */
-/* applies to stable 488579 (28327b1) */
+
 .container_c8ffbb,
 .members_c8ffbb,
 .clickable__91a9d {
@@ -160,7 +155,7 @@ because it changes on hover */
 }
 
 /* profile pictures in chat */
-/* applies to stable 488579 (28327b1) */
+
 .avatar_c19a55 {
   border-radius: 0px;
 }
@@ -178,7 +173,7 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 }
 
 /* message context menu hover */
-/* applies to stable 488579 (28327b1) */
+
 .wrapper_f7ecac {
   background-color: transparent !important;
   background: none !important;
@@ -186,7 +181,7 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 }
 
 /* extended message context menu (three dots menu) */
-/* applies to stable 488579 (28327b1) */
+
 .menu_c1e9c4, 
 .flexible_c1e9c4 {
   background-color: transparent !important;
@@ -215,7 +210,7 @@ transform 220ms cubic-bezier(.2,.8,.2,1),
 } */
 
 /* message box */
-/* applies to stable 488579 (28327b1) */
+
 .channelTextArea__74017,
 .themedBackground__74017 {
   background-color: transparent !important;
